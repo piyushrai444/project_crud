@@ -8,7 +8,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <title>{{ config('app.name', 'Laravel') }}</title>
-
+    <!-- Bootstrap 4.0-->
+    <link rel="stylesheet" href="{{asset('bootstrap/dist/css/bootstrap.css')}}">
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
 
@@ -90,4 +91,6 @@
         </main>
     </div>
 </body>
+<!-- Bootstrap 4.0-->
+<script src="{{asset('bootstrap/dist/js/bootstrap.js')}}"></script>
 </html>
