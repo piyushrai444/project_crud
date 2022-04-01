@@ -13,6 +13,7 @@
         <th>Email</th>
         <th>Website</th>
         <th>Logo</th>
+        <th>Action</th>
       </tr>
     </thead>
     <tbody>
